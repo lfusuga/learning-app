@@ -1,0 +1,18 @@
+{
+  "extends": "ts-config-single-spa",
+  "include": ["src/**/*", "node_modules/@types"],
+  "exclude": ["src/**/*.test*"],
+  "jsx": "react",
+  "moduleResolution": "node",
+  "types": ["cypress", "cypress-wait-until"],
+  "compilerOptions": {
+    "sourceMap": false,
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "outDir": "./dist"
+  }
+}

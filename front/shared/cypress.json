@@ -1,0 +1,6 @@
+{
+  "baseUrl": "http://localhost:9999",
+  "ignoreTestFiles": ["*.js", "*.ts"],
+  "testFiles": "**/*.{feature,features}",
+  "supportFile": "cypress/support/commands.ts"
+}
